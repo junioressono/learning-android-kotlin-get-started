@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.38333333333333336" />
+        <entry key="app/src/main/res/drawable/ic_baseline_cancel_48.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.446875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_done_outline_24.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/drawable/ic_baseline_more_horiz_24.xml" value="0.2640625" />
+        <entry key="app/src/main/res/layout/activity_noteList.xml" value="0.29483695652173914" />
+        <entry key="app/src/main/res/layout/activity_note_list.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/delete_note_confirm_dialog_fragment.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/edit_note_cancel_dialog_fragment.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/note_detail_activity.xml" value="0.43072916666666666" />
+        <entry key="app/src/main/res/layout/note_editing_activity.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/note_list_activity.xml" value="0.43072916666666666" />
+        <entry key="app/src/main/res/layout/note_list_item.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/shared_toolbar.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/view_holder_note_list_item.xml" value="0.29483695652173914" />
+        <entry key="app/src/main/res/menu/note_details_activity_menu.xml" value="0.2484375" />
+        <entry key="app/src/main/res/menu/note_editing_activity_menu.xml" value="0.28125" />
+        <entry key="app/src/main/res/menu/note_list_activity_menu.xml" value="0.43072916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

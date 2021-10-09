@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.editNote.NoteEditingActivity">
+
+    <include
+        android:id="@+id/included_shared_toolbar"
+        layout="@layout/shared_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/titleNoteDetailTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/included_shared_toolbar"
+        style="@style/noteTitle"
+        android:layout_margin="@dimen/margin2"
+        tools:text="Title of note detail"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/contentNoteDetailTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/titleNoteDetailTextView"
+        app:layout_constraintEnd_toEndOf="@id/titleNoteDetailTextView"
+        app:layout_constraintTop_toBottomOf="@id/titleNoteDetailTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/margin4"
+        android:gravity="top"
+        tools:text="The cards are drawn to the screen with a default elevation, which causes the system to draw a shadow underneath them. You can provide a custom elevation for a card with the card_view:cardElevation attribute. This will draw a more pronounced shadow with a larger elevation, and a lower elevation will result in a lighter shadow. `CardView` uses real elevation and dynamic shadows on Android 5.0 (API level 21) and above and falls back to a programmatic shadow implementation on earlier versions."
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

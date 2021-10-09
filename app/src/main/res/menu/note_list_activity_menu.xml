@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/selectNotesMenuItem"
+        android:id="@+id/selectNotesMenuItem"
+        android:icon="@drawable/ic_baseline_check_box_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/deleteAllNotesMenuItem"
+        android:id="@+id/deleteAllNotesMenuItem"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        app:showAsAction="always"
+        />
+    <group android:id="@+id/mainActionsGroupItems">
+
+        <item
+            android:title="@string/archiveNotesMenuItem"
+            android:id="@+id/archiveNotesMenuItem"
+            android:icon="@drawable/ic_baseline_archive_24"
+            app:showAsAction="never"
+            />
+
+        <item
+            android:title="@string/unarchiveNotesMenuItem"
+            android:id="@+id/unarchiveNotesMenuItem"
+            android:icon="@drawable/ic_baseline_unarchive_24"
+            app:showAsAction="never"
+            />
+    </group>
+</menu>

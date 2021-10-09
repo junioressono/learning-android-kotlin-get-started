@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="selectNotesMenuItem">Select Notes</string>
+    <string name="deleteAllNotesMenuItem">Delete All</string>
+    <string name="archiveNotesMenuItem">Archive Notes</string>
+    <string name="unarchiveNotesMenuItem">Unarchive Notes</string>
+    <string name="notesListActivityTitle">Notes List</string>
+    <string name="editNoteMenuItem">Edit note</string>
+    <string name="NoteDetailsActivityTitle">Note Details</string>
+    <string name="noteEditingNewActivityTitle">New Note</string>
+    <string name="noteEditingActivityTitle">Edit Note</string>
+    <string name="saveEditingNoteMenuItem">Save note</string>
+    <string name="cancelEditingNoteMenuItem">Cancel edition</string>
+    <string name="cancelDeleteSnackbarActionButton">Cancel</string>
+    <string name="don_t_delete_the_note">Don\'t delete the note</string>
+    <string name="delete_the_note">Delete the note</string>
+</resources>
